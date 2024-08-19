@@ -8,14 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-   .font-manrope{
-    
-  font-family: "Manrope", sans-serif;
-
-   }
-              
-    </style>
+   
     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -24,6 +17,9 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontFamily:{
+              Manrope :"Manrope",
               }
             }
           }
@@ -31,12 +27,12 @@
       </script>
     
 </head>
-<body class="font-manrope max-w-xl-mx-auto px-20">
+<body class="font-Manrope">
     <header>
         <section>
             <div class="flex justify-between">
                 <!-- text-content -->
-                <div>
+                <div class="p-4">
                     <h1 class="text-5xl md:text-7xl font-bold">It's good <br>
                         tea time at The<br>
                         Tea House</h1>
@@ -44,7 +40,7 @@
 
                     <div>
                     <button class="bg-gradient-to-r from-orange-500 to-red-700 px-5 py-3 rounded-xl
-                    text-white font-bold"> 
+                    text-white font-bold rounded-lg"> 
                         
                         Explore More
                          <img class="inline-flex" src="./images/arrow.png">
@@ -60,8 +56,8 @@
                 <!-- image-content -->
                 <div class="relative">
                     <img class="w-full"  src="./images/banner.png">
-                    <div class="  absolute
-                     flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 ">
+                    <div class="  absolute bottom-2 left-28
+                     flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4  rounded-lg">
                         <!-- icon -->
                          <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-5xl text-amber-600">
@@ -81,7 +77,7 @@
         </section>
 
     </header>
-    <!-- <main class="max-w-screen-xl mx-auto px-16 lg:px-28"> -->
+    <main class="max-w-screen-xl mx-auto px-20 lg:px-28">
 
     </main>
     <footer>
